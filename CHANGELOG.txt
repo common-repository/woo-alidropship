@@ -1,0 +1,266 @@
+/**2.1.1 - 2024.10.23**/
+– Updated: Compatible with WP 6.6.2 and  WC 9.3.3
+- Fixed: HTML error in Bulk Set categories (Import List)
+
+/**2.1.0 - 2024.08.31**/
+- Updated: Import AliExpress product in 'Find product to import' with API
+- Updated: Remove the old API and use the new API to get AliExpress product information
+- Updated: Only override the existing products from AliExpress based on their product IDs. The overrode must be added to the import list.
+- Updated: The shipping cost will be only calculated based on when the product is added to the import list
+
+/**2.0.5 - 2024.07.25**/
+– Updated: Filter while getting ALD data
+
+/**2.0.4 - 2024.07.23**/
+– Updated: Compatible with WP 6.6 and  WC 9.1
+
+/**2.0.3 - 2024.06.01**/
+– Updated: Import AliExpress product data from AliExpress's new design
+– Updated: Only use the new table after migrated data
+– Updated: Update support class
+
+/**2.0.2 - 2024.04.13**/
+– Fixed: Can not filter orders on the Woo orders tab
+– Updated: Compatible with WP 6.5 and  WC 8.7
+– Updated: Update support class
+
+/**2.0.1 – 2023.12.27*/
+- Fixed: Import AliExpress product characteristics and description from Aliexpress.ru
+
+/**2.0.0 – 2023.09.25*/
+– Updated: Move Ali product to new table
+– Fixed: Description 404
+
+/**1.1.4 – 2023.09.23*/
+– Fixed: Duplicate class
+
+/**1.1.3 – 2023.09.20*/
+– Fixed: Missing class
+
+/**1.1.2 – 2023.09.19*/
+– Fixed: Get shipping from AliExpress when import product
+
+/**1.1.1 – 2023.08.10*/
+– Fixed: Missing item count at admin menu
+
+/**1.1.0 – 2023.08.10*/
+– Added: Find Ali product to import from Import list
+
+/**1.0.30 – 2023.08.01*/
+- Fixed: Parse data from Ali
+
+/**1.0.28 – 2023.07.29*/
+– Updated: Import data from RU changed
+
+/**1.0.27 – 2023.07.03*/
+– Updated: Compatible with WooCommerce HPOS(COT)
+
+/**1.0.26 – 2023.04.14*/
+- Fixed: Get shipping infomation
+
+/**1.0.25 – 2023.02.24*/
+- Updated: Import product data with Ship to Australia
+
+/**1.0.24 – 2023.01.12*/
+- Fixed: "Connect the Extension" button always shows on settings page even the current store is connected
+- Updated: Prevent "find and replace" feature from changing image urls in product description
+- Updated: Show imported status of products on AliExpress products list when the chrome extension only connects to 1 store
+
+/**1.0.23 – 2022.12.28*/
+– Fixed: get_product_variations method force to return array
+
+/**1.0.22 - 2022.12.13*/
+- Updated: Ajax nonce and capability check
+- Improved: Possible to search subcategories
+
+/**1.0.21 - 2022.11.26*/
+- Fixed: Script of ThemeHunk MegaMenu Plus plugin causing error on ALD settings page
+- Added: Options to set order meta field to get billing/shipping number and neighborhood from
+- Updated: Prevent "Write posts or pages in plain-text Markdown syntax" option of Jetpack plugin from wrapping product description with pre and code tags
+
+/**1.0.20 - 2022.11.02*/
+- Updated: Compatibility check with WP 6.1 and WC 7
+- Fixed: Unexpected ')' error thrown in PHP5
+
+/**1.0.19 - 2022.10.15*/
+- Fixed: Unable to import products from aliexpress.ru due to new changes from AliExpress
+
+/**1.0.18 - 2022.09.28*/
+- Fixed: Some types of images from product description are unable to import
+- Updated: Use get_option( 'woocommerce_currency' ) instead of get_woocommerce_currency() to avoid conflict with WOOCS plugin
+- Optimized: Make it possible to connect the chrome extension from wp admin of a WordPress site that installs ALD plugin
+- Optimized: Setup wizard
+- Added: Vietnamese translation
+
+/**1.0.17 - 2022.07.22*/
+- Updated: VillaTheme_Support
+- Updated: Data sanitization/escaping check
+- Added: Ability to import in RUB as AliExpress now does not allow changing currency when Ship-to country is set to Russian Federation
+
+/**1.0.16 - 2022.05.06*/
+- Fixed: Unable to import due to different designs of some products from https://pt.aliexpress.com/
+
+/**1.0.15 - 2022.04.20*/
+- Fixed: Incorrect price of some products from some sellers due to recent changes from AliExpress
+- Fixed: Sanitize, escape data
+- Updated: Support Class
+
+/**1.0.14 - 2022.03.29*/
+- Updated: Support Class
+
+/**1.0.13 - 2022.03.21*/
+- Added: Button to sync AliExpress orders from WordPress dashboard(orders and Ali Order page) to make it work with new changes on AliExpress/My orders page
+- Updated: Support Class
+
+/**1.0.12 - 2022.02.12*/
+- Fixed: Unable to import products from aliexpress.ru
+
+/**1.0.11 - 2022.01.22*/
+- Fixed: Undefined index: message_not_active
+
+/**1.0.10 - 2022.01.11*/
+- Updated: VillaTheme_Support
+- Added: Warning of possible wrong price due to AliExpress's New user bonus discount when importing products
+
+/**1.0.9 - 2021.12.08*/
+- Added: Option to use AliExpress cdn links for product featured image, gallery images and variation image. EXMAGE – WordPress Image Links plugin is required
+
+/**1.0.8.3 - 2021.11.19*/
+- Fixed: Simple product is always out-of-stock if the "Manage stock" option in the plugin settings is turned off
+
+/**1.0.8.2 - 2021.09.11*/
+- Fixed: Shipping cost imported in wrong currency for some products from some suppliers
+
+/**1.0.8.1 - 2021.09.02*/
+- Fixed: Original AliExpress variation can not be saved correctly for some products
+
+/**1.0.8 - 2021.08.20*/
+- Fixed: Fulfill states for some countries
+- Optimized: Categories are now displayed as tree
+- Updated: Change plugin name from "Dropshipping and Fulfillment for AliExpress and WooCommerce" to "ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce"
+- Added: Ability to keep Woo product when overriding products
+- Added: Ability to manually select mapping variations of imported products
+- Added: Ability to choose a WooCommerce product to map to when importing to make it possible to migrate products imported by other plugins/apps
+- Added: Support RUT number for fulfilling orders of Chilean customers
+
+/**1.0.7.1 - 2021.08.02*/
+- Optimized: Only send data of selected variations when importing product to reduce error with max_input_vars when a product has too many variations
+
+/**1.0.7 - 2021.07.28*/
+- Added: Option to set shipping class
+- Added: Compatibility with WP 5.8 and WC 5.5
+- Optimized: Background processing notices
+
+/**1.0.6 - 2021.06.12*/
+- Added: Option to use a custom order meta field as CPF for customers from Brazil
+- Added: Option to override customer phone with default phone number
+- Optimized: Setup wizard
+
+/**1.0.5 - 2021.03.06*/
+- Fixed: Fulfilling issue with some states
+- Changed: Price rules UI
+- Added: Bulk edit products in Import list: tags, categories, status, visibility
+- Added: Compatibility with WP 5.7 and WC 5.0
+
+/**1.0.4.5 - 2021.01.27*/
+- Fixed: Can not fulfil orders when state/county is empty
+- Fixed: Attribute value is now case-sensitive when editing in Import list
+- Changed: Bulk Set price button only works for selected variations in Import list
+- Changed: Do not use background process to import product description anymore
+
+/**1.0.4.4 - 2020.12.17*/
+- Fixed: Can not import correct attributes when attribute name is in Non-Latin languages
+- Added: Ability to remove a product attribute
+- Added: Button to empty Import list
+- Added: Compatibility with WP 5.6 and WC 4.8
+
+/**1.0.4.3 - 2020.11.28*/
+- Fixed: Product description not importing
+
+/**1.0.4.2 - 2020.11.25*/
+- Fixed: Wrong price source if users import a product while viewing it in other currencies but USD
+- Added: Change variation images
+- Added: Link to pro
+
+/**1.0.4.1 - 2020.11.14*/
+- Added: Automatically revoke API after removing a domain from list
+- Added: Default phone number for order fulfillment
+- Added: Automatically open visual mode when clicking tab description in Import list
+
+/**1.0.4 - 2020.09.24*/
+- Added: Option to import product attributes as global attributes
+- Added: Ability to edit product attribute in Import list
+- Added: Notice when product images are still being processed
+- Changed: Load all categories to select instead of Ajax search in Import list
+
+/**1.0.3.3 - 2020.09.23*/
+- Added: Option "Add shipping cost after price rules"
+- Added: Warning message when overriding a product
+
+/**1.0.3.2 - 2020.09.05*/
+- Fixed: False alert when saving settings
+- Fixed: Wrong product cost in import list when using shipping
+- Optimized: Product list pagination
+
+/**1.0.3.1 - 2020.08.19*/
+- Fixed: Can not change Number of items per page on Imported products page
+- Fixed: Wrong link of Get tracking button on Edit order page
+
+/**1.0.3 - 2020.08.08*/
+- Fixed: Price rules
+- Added: Compatibility with WP 5.5 and WC 4.3
+- Added: Authenticate extension using WooCommerce REST API authentication
+- Added: Option to download images in product description
+- Added: Rule to change price format
+- Added: Option to add shipping cost before importing
+- Added: Load variations tab dynamically if Show shipping option is enabled or if a product has 10 variations and more
+
+/**1.0.2.1 - 2020.07.07*/
+- Fixed: Convert price to float incorrectly because price uses comma as thousand separator
+- Optimized: Save image url to avoid downloading duplicated images
+- Added: Filter failed images by product
+
+/**1.0.2 - 2020.07.01*/
+- Fixed: Some simple products can not be added to cart when fulfilling AliExpress orders
+- Added: Option to import product with 1 variations as simple product
+- Added: Option to Disable background process
+- Updated: UX
+- Updated: Import product directly instead of using background processing
+
+/**1.0.1.2 - 2020.05.09*/
+- Fixed: Option Import ship from
+- Updated: Compatible with WC4.1
+
+/**1.0.1.1 - 2020.04.23*/
+- Fixed: Conflict using accordion with other plugins
+- Updated: Class support
+
+/**1.0.1 - 2020.04.10*/
+- Fixed: Can not save plugin settings
+- Fixed: Some attributes imported incorrectly
+
+/**1.0.0.5 - 2020.03.23*/
+- Updated: Compatible with WP 5.4 and WC4.0
+- Updated: Class support
+
+/**1.0.0.4 - 2020.02.25*/
+- Added: Ability to Import/Export plugin settings between sites
+
+/**1.0.0.3 - 2020.02.20*/
+- Fixed: Default variation not set when not importing the whole variations of a product
+- Updated: Change plugin menu title
+- Added: Error product images count
+
+/**1.0.0.2 - 2020.01.20*/
+- Fixed: Fatal error when activating plugin if WooCommerce is not active
+- Fixed: Warning message on import list page when regular price or sale price of price rules is empty
+- Updated: Move product html request to extension
+- Updated: Change Carrier company follow on AliExpress and set default cainiao URL in tracking URL
+- Updated: Update correct attribute name
+- Added: Cancel overriding product
+
+/**1.0.0.1 - 2019.12.30*/
+- Update: Extension link on Google Chrome Store
+
+/**1.0.0 - 2019.12.03**/
+~ The first released

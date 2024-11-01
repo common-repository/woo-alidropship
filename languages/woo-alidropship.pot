@@ -1,0 +1,2865 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo AliDropship\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-31 07:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.3-alpha-46092"
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:439
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:493
+msgid " of "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:93
+#, php-format
+msgid "%1$s => Applied rule number: %2$s"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:95
+#, php-format
+msgid "%s => No rule matched"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3743
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3748
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3745
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3391
+msgid "(price+shipping)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1165
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:391
+msgid "(Set -1 to not use sale price)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:58
+msgid "*Required to be able to import AliExpress products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:192
+msgid "1. Chrome Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:197
+msgid "2. Product Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:202
+msgid "3. Recommendation"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1928
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"billing neighborhood to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid billing neighborhood being added twice to order address "
+"which makes the address become incorrect."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1900
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"billing number to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid billing number being added twice to order address which "
+"makes the address become incorrect."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1942
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"shipping neighborhood to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid shipping neighborhood being added twice to order "
+"address which makes the address become incorrect."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1914
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"shipping number to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid shipping number being added twice to order address "
+"which makes the address become incorrect."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:709
+msgid ""
+"<strong>*Note:</strong> The shipping cost will be calculated based on when "
+"the product is added to the import list."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:328
+msgid ""
+"<strong>*Note:</strong> This is not shipping cost/method that your customers "
+"see at your store."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1872
+msgid ""
+"<strong>*Note:</strong> This only overrides a customer's phone number if the "
+"default phone country is the same as the customer's country"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1589
+#, php-format
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: <i>wp_vi_wad_background_download_images_cron</i> is "
+"late, queued product images may not be processed. If you want to move all "
+"queued images to Failed images page to handle them manually, please click <a "
+"href=\"%s\">Move</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1609
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: Finish processing product images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1597
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: Product images are still being processed in the "
+"background, please do not edit products/go to product edit page until all "
+"images are processed completely."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1618
+#, php-format
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: There are still images in the queue but background "
+"process is not running. <a href=\"%1$s\">Run</a> or <a href=\"%2$s\">Move to "
+"Failed images</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:427
+msgid ""
+"<strong>DISABLE_WP_CRON</strong> is set to true, product images may not be "
+"downloaded properly. Please try option <strong>\"Disable background "
+"process\"</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:58
+msgid ""
+"<strong>EXMAGE – WordPress Image Links</strong> is currently inactive, "
+"external images added by this plugin(Post/product featured image, product "
+"gallery images...) will no longer work properly."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:79
+msgid ""
+"<strong>Product Variations Swatches for WooCommerce</strong> is currently "
+"inactive, this prevents variable products from displaying beautifully."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1149
+msgid "=> set \"Exchange rate\" 23 000"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1764
+msgid ""
+"Access token is used to bulk fulfill AliExpress orders/automatically sync "
+"product price and stock without using chrome extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:524
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2969
+msgid "Action"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:248
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1162
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:388
+msgid "Actions"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:177
+msgid "Activate"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:99
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:809
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:624
+msgid "Activate now"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:595
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:626
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1068
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2112
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2187
+msgid "Add"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1352
+msgid "Add a new range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:595
+msgid "Add selected and keep existing categories"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:626
+msgid "Add selected and keep existing tags"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:715
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:335
+msgid "Add shipping cost after price rules"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1967
+msgid "Add this note to AliExpress order when fulfilling with Chrome extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:558
+msgid "Add WooCommerce AliExpress Dropshipping Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1409
+msgid ""
+"Adjust product prices following below rules after prices are calculated with "
+"above rules"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:68
+msgctxt "Admin menu name"
+msgid "Failed Images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:648
+msgctxt "Admin menu name"
+msgid "Import List"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:187
+msgctxt "Admin menu name"
+msgid "Imported"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:184
+msgid "ALD - Aliexpress Dropshipping and Fulfillment for WooCommerce icon"
+msgstr ""
+
+#. Name of the plugin
+#: D:/git/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/header.php:37
+msgid "ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:344
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce plugin is "
+"currently disabled. Please enable it to use this function."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2302
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:414
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2237
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:120
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce: you can "
+"not import products or fulfil AliExpress orders unless below issue is "
+"resolved"
+msgid_plural ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce: you can "
+"not import products or fulfil AliExpress orders unless below issues are "
+"resolved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:448
+msgid "ALD - Warning"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:240
+msgid "Ali Order ID"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1794
+msgid "AliExpress account"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1788
+msgid "AliExpress API"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1122
+msgid ""
+"AliExpress now does not allow switching currency if ship-to is set to "
+"Russian Federation(always in RUB) so if your store's currency is not RUB, "
+"you have to set this rate to be able to import products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:325
+msgid "AliExpress order ID"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1961
+msgid "AliExpress Order note"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:143
+msgid "AliExpress Product ID:"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:166
+msgid "AliExpress sync"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:67
+msgid "All cart features you need in one simple plugin"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:223
+msgid "All failed images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:386
+msgid "All imported products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2041
+msgid "All options below will only work if this option is enabled"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:43
+msgid ""
+"Allows you to bulk add tracking code to WooCommerce orders. Then the plugin "
+"will send tracking email with tracking URLs to customers. The plugin also "
+"helps you to add tracking code and carriers name to your PayPal transactions."
+" This option will save you tons of time and avoid mistake when adding "
+"tracking code to PayPal."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:140
+msgid "Also delete product from your WooCommerce store."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1870
+msgid ""
+"Always use Default phone number when fulfilling AliExpress order no matter "
+"your customers have phone number or not"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:533
+msgid "Amount"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:85
+msgid ""
+"An ultimate review plugin for WooCommerce which helps you send review "
+"reminder emails, allows customers to post reviews include product pictures "
+"and send thank you emails with WooCommerce coupons to customers."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:568
+msgid "Are you sure you want to delete all item(s) on this page?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:567
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1646
+msgid "Attribute slug"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2803
+msgid "Attributes"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/auth.php:22
+msgid "Auth"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/auth.php:32
+msgid "Authorize WooCommerce AliExpress Dropshipping Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2009
+msgid ""
+"Automatically change order status after order id & tracking number of an "
+"order are synced successfully"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:659
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:723
+msgid "Back"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1674
+msgid "Below options are used when you override a product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1919
+msgid "Billing neighborhood meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1891
+msgid "Billing number meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2434
+msgid "Bulk Action"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:571
+msgid "Bulk set product categories"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:606
+msgid "Bulk set product tags"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:973
+msgid ""
+"By selecting a replacement, a new variation will be created by modifying the "
+"respective overridden variation. Overridden variations with no replacement "
+"selected will be deleted"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:50
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:63
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:243
+msgid "Can not delete product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/functions.php:116
+msgid "Can not detect file type"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1477
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1495
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1537
+msgid ""
+"Can not find replacement for product attributes values. Please remove this "
+"product and import it again with the latest version of this plugin and "
+"Chrome Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:274
+msgid "Can not override itself"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:172
+msgid "Can not remove image from list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1375
+msgid ""
+"Can use an <strong>x</strong> in New value of compared part to remain the "
+"respective digit in the Compared part of input price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:168
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:501
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:545
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:598
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:629
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:266
+msgid "Cancel"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:852
+msgid "Cancel overriding"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:844
+msgid "Cancel overriding this product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:574
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:453
+msgid "Cannot create post"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:522
+msgid "Cannot retrieve data."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:404
+msgid ""
+"Cannot retrieve data. Please contact us and we will help you detect and "
+"handle the problem"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1811
+msgid "Carrier company"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:569
+msgid "Carrier: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1014
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2132
+msgid "Case Sensitive"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2878
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:746
+msgid "Catalog visibility"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2895
+msgid "Categories"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1992
+msgid "Change order status"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:629
+msgid "Change to use data from new table"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:106
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:161
+msgid "Check"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1706
+msgid ""
+"Check for existence of overridden product in unfulfilled orders before "
+"overriding"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:589
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:620
+msgid "Clear selected"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1429
+msgid "Compared part"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1430
+msgid "Compared part range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:843
+msgid "Complete overriding"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1586
+msgid ""
+"Configure what the plugin will do when you update product manually with the "
+"chrome extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/data.php:1445
+msgid "Connect the Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:503
+msgid ""
+"Connecting with extension using secret key may be deprecated in an update in "
+"the near future."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:533
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:269
+msgid "Copy Secret key"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:250
+msgid "Copy Site URL"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:728
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3387
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3625
+msgid "Cost"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3629
+msgid "Cost(price+shipping)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1877
+msgid "CPF meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:434
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:488
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2494
+msgid "Current Page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:180
+msgid "Currently active"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:73
+msgid ""
+"Customize WooCommerce emails to make them more beautiful and professional "
+"after only several mouse clicks."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2751
+msgid "Date: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1314
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1796
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:534
+msgid "Default"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1824
+msgid "Default carrier company"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:870
+msgid "Default categories"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1830
+msgid "Default phone number"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:773
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:588
+msgid "Default product description when adding product to import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:897
+msgid "Default product tags"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:839
+msgid "Default select product images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:920
+msgid "Default shipping class"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3330
+msgid "Default variation"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:380
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:165
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:634
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:648
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:665
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:674
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:680
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:800
+msgid "Delete"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:400
+msgid "Delete All"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:631
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:645
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:662
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:671
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:797
+msgid "Delete this product permanently"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:124
+msgid "Delete: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:635
+msgid "Deleting old data in background"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/migrate-new-table.php:37
+msgid "Deletion progress has started running in the background."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:283
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:342
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2792
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:146
+msgid "Description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:855
+msgid "Disable background process"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:41
+msgid "Dismiss"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:690
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:701
+msgid "Do not replace"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1754
+msgid "Do not show these options when overriding product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2574
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:674
+msgid "Draft"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2303
+msgid "Dropship & Fulfill"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1551
+msgid "Duplicate this row"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1148
+msgid ""
+"E.g: Your WooCommerce store currency is VND, exchange rate is: 1 USD = 23 "
+"000 VND"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:254
+msgid "Edit"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3314
+msgid "Edit product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:403
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2430
+msgid "Empty List"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:511
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2037
+msgid "Enable"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:978
+msgid "Enable manage stock and import product inventory."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:962
+msgid "Enable to make variations of imported products visible on product page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:995
+msgid "Enable to only import product variations with ship from China"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1567
+msgid "Enter a price to test"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1640
+msgid "Enter attribute term to search"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:674
+msgid "Error"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/wp-background-process.php:420
+msgid "Every %d Minutes"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1111
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:367
+msgid "Exchange rate - RUB/USD"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1095
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:351
+#, php-format
+msgid "Exchange rate - USD/%s"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1130
+msgid "Exchange rate API"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1795
+msgid "Expire time"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:51
+msgid "Export/Import Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:203
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:204
+msgid "Failed Images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/functions.php:113
+msgid "File type is not permitted"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:607
+msgid "Filter by AliExpress order status"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:489
+msgid "Filter by product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/admin.php:37
+msgid "Find Ali product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1004
+msgid "Find and Replace"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:430
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1696
+msgid "Find in unfulfilled orders"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:511
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2342
+msgid "Find product to import"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:848
+msgid ""
+"First image will be selected as product image and other images(except images "
+"from product description) are selected in gallery when adding product to "
+"import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:454
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2461
+msgid "First Page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2778
+msgid ""
+"First-purchase discount may apply to this product, please check its price "
+"carefully or import with consideration."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1156
+msgid ""
+"For each price, first matched rule(from top to bottom) will be applied. If "
+"no rules match, the default will be used."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+msgid "Found in unfulfilled orders"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1495
+msgid "Fraction"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:487
+msgid "Frontend Shipping"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:484
+msgid "Fulfill"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:285
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:347
+msgid "Gallery"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2819
+#, php-format
+msgid "Gallery(%s)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:466
+msgid "General"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:537
+msgid "Generate new key"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1134
+msgid "Get exchange rate from Google finance, Yahoo finance API..."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:44
+msgid "Get orders data to fulfill AliExpress orders"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:273
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:307
+msgid "Get tracking"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2014
+msgid "Get tracking number automatically"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:691
+msgid ""
+"Global attributes will be used instead of custom attributes. More detail "
+"about <a href=\"https://woocommerce.com/document/managing-product-"
+"taxonomies/#product-attributes\" target=\"_blank\">Product attributes</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:648
+msgid ""
+"Global attributes will be used instead of custom attributes. More details "
+"about <a href=\"https://woocommerce.com/document/managing-product-"
+"taxonomies/#product-attributes\" target=\"_blank\">Product attributes</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2337
+msgid "Go to AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:840
+msgid "Go to import list to complete overriding"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:79
+msgid ""
+"Helps you to recovery unfinished order in your store. When a customer adds a "
+"product to cart but does not complete check out. After a scheduled time, the "
+"cart will be marked as “abandoned”. The plugin will start to send cart "
+"recovery email or facebook message to the customer, remind him/her to "
+"complete the order."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2582
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:755
+msgid "Hidden"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1747
+msgid "Hide options"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1362
+msgid "How does it work?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:580
+msgid "How to use this plugin?"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://villatheme.com/extensions/aliexpress-dropshipping-and-fulfillment-"
+"for-woocommerce/"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:740
+msgid ""
+"If a product has only 1 variation or you select only 1 variation to import, "
+"that product will be imported as simple product. Variation sku and "
+"attributes will not be used."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1857
+msgid ""
+"If an order does not have phone number, this number will be used when "
+"fulfilling AliExpress order"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:980
+msgid ""
+"If this option is disabled, products stock status will be set \"Instock\" "
+"and product inventory will not be imported"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1926
+msgid ""
+"If you customize checkout fields to add the billing neighborhood field, "
+"please enter the order meta field which is used to store billing "
+"neighborhood here."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1898
+msgid ""
+"If you customize checkout fields to add the billing number field, please "
+"enter the order meta field which is used to store billing number here."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1940
+msgid ""
+"If you customize checkout fields to add the shipping neighborhood field, "
+"please enter the order meta field which is used to store shipping "
+"neighborhood here."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1912
+msgid ""
+"If you customize checkout fields to add the shipping number field, please "
+"enter the order meta field which is used to store shipping number here."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1886
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_cpf</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1927
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_neighborhood</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1899
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_number</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1941
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_shipping_neighborhood</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1913
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_shipping_number</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:376
+msgid "If you want to import products from aliexpress.ru, this is required"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:59
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:127
+msgid ""
+"If your customers buy this product, this selected AliExpress variation will "
+"be used when fulfilling AliExpress orders"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:986
+msgid "Ignore import ship from"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:246
+msgid "Image url"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:375
+msgid "Import"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:496
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3157
+msgid "Import & Map"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:447
+msgid "Import & map existing Woo product: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3143
+msgid "Import & Override"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3195
+msgid "Import AliExpress Products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:43
+msgid "Import AliExpress products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:399
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2427
+msgid "Import All"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2427
+msgid "Import all products on this page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:415
+msgid "Import all products on this page to your WooCommerce store?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:418
+msgid "Import all selected product(s)?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:731
+msgid "Import as simple product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:823
+msgid "Import description images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2314
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2334
+msgid "Import List"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2313
+msgid ""
+"Import List - ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3149
+msgid "Import Now"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2444
+msgid "Import selected"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:82
+msgid "Import Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1751
+msgid "Import successfully"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:667
+msgid "Import this product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3149
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3155
+msgid "Import this product to your WooCommerce store"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1086
+msgid "Important"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:356
+msgid "Imported"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:355
+msgid ""
+"Imported Products - ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:676
+msgid "Imported products status will be set to this value."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:892
+msgid "Imported products will be added to these categories."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:424
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:502
+msgid "In transit"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1249
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1318
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:470
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:538
+msgid "Increase by Fixed amount($)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:528
+#, php-format
+msgid "Increase by fixed value(%s)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1250
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1319
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:471
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:539
+msgid "Increase by Percentage(%)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:529
+msgid "Increase by percentage(%)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:242
+msgid "Index"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:572
+msgid "Input keyword to search"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:169
+msgid "Install"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:728
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:750
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:759
+msgid "Install & Return to Import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:569
+msgid "Install and connect the chrome extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/data.php:1449
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:232
+msgid "Install Chrome Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:55
+msgid "Install Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:92
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:804
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:619
+msgid "Install now"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1690
+msgid ""
+"Instead of deleting old product to create a new one, it will update the "
+"overridden old product's prices/stock/attributes/variations based on the new "
+"data. This way, data such as reviews, metadata... will not be lost."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1494
+msgid "Integer"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:49
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:915
+msgid "Invalid data"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:590
+msgid "Invalid nonce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:90
+msgid "Invalid product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3407
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3718
+msgid "Inventory"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:769
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:584
+msgid "Item specifics"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:771
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:586
+msgid "Item specifics & Product Description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:611
+msgid ""
+"items remaining in the migration process. New Ali products cannot be added "
+"while the process is ongoing."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:429
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1680
+msgid "Keep Woo product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:600
+msgid "Keyword is empty"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:533
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2533
+msgid "Last Page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:542
+msgid "Last volume high to low"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:541
+msgid "Last volume low to high"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1052
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2170
+msgid "Leave blank to delete matches"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1374
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1384
+msgid ""
+"Leave Compared part range <strong>empty</strong> to apply to all prices in "
+"the Price range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1373
+msgid ""
+"Leave Price range <strong>empty</strong> to apply to all prices that have "
+"decimal part matches the Compared part range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2922
+msgid "Link existing Woo product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:969
+msgid "Manage stock"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:507
+msgid "Manual"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:217
+msgid "Max can not < min"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:218
+#, php-format
+msgid "Max decimal: %s"
+msgid_plural "Max decimals: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1382
+msgid ""
+"Maximum number of digits of Compared part range is 1 subtracted from the "
+"minimum number of digits of Price range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1383
+msgid ""
+"Maximum number of digits of New value of compared part is the maximum number "
+"of digits of Compared part range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:211
+msgid "Maximum {value} digit"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:212
+msgid "Maximum {value} digits"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:43
+msgid "Memory Limit"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:617
+msgid "Migrate & use new table"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:420
+msgid "Migrate import list/imported to new data table"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/migrate-new-table.php:25
+msgid "Migration progress has started running in the background."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:216
+msgid "Min can not > max"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:215
+msgid "Minimum 2 digits"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:331
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:389
+msgid "Missing required arguments"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1251
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1320
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:472
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:540
+msgid "Multiply with"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2966
+msgid "Name"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:78
+msgid ""
+"Need a variations swatches plugin that works perfectly with ALD - "
+"Dropshipping and Fulfillment for AliExpress and WooCommerce? <strong>Product "
+"Variations Swatches for WooCommerce</strong> is what you need."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:57
+msgid ""
+"Need to save your server storage? <strong>EXMAGE – WordPress Image "
+"Links</strong> will help you solve the problem by using external image URLs. "
+"</br>When this plugin is active, \"Use external links for images\" option "
+"will be available in the ALD plugin settings/Product which allows to use "
+"original AliExpress product image URLs for featured image, gallery images "
+"and variation image of imported AliExpress products."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1431
+msgid "New value of compared part"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1376
+#, php-format
+msgid ""
+"New value of compared part can contain maximum %s digit which is the Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgid_plural ""
+"New value of compared part can contain maximum %s digits which is the Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:299
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:665
+msgid "Next"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:460
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:515
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2516
+msgid "Next Page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1999
+msgid "No change"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:961
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:970
+msgid "No matched order found"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:681
+msgid "No product found"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:414
+msgid "No product found."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2910
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:926
+msgid "No shipping class"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:857
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:934
+msgid "No tracking number"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1427
+msgid "No."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:768
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:583
+msgid "None"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3371
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3608
+msgid "Not available"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:325
+msgid "Not find this product data to override"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:148
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:175
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:680
+msgid "Not found"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:284
+msgid ""
+"Not found product data. Please make sure the product is added to the import "
+"list before checking"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:279
+msgid ""
+"Not found. Please make sure the product is added to the import list before "
+"checking"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:644
+msgid "Note: You should backup data before doing this action"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1618
+msgid "Notification email"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:214
+msgid "Numerical digit & X only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:213
+msgid "Numerical digit only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1988
+msgid "Only show action buttons for orders with status among these"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:528
+msgid "Order ID: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:1202
+msgid "Order not found"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class-vi-wad-draft-product.php:20
+msgctxt "Order status"
+msgid "Override"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:816
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:896
+msgid "Order synced successfully"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:59
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:127
+msgid "Original AliExpress variation"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1647
+msgid "Original attribute term(case-insensitive)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+msgid "Overridden items"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:451
+msgid ""
+"Overridden product and all of its data(including variations, reviews, "
+"metadata...) will be deleted. Please make sure you had backed up those kinds "
+"of data before continuing!"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:985
+msgid "Overridden product does not exist"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:107
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:808
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:495
+msgid "Override"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1862
+msgid "Override customer phone number"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1735
+msgid "Override description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1723
+msgid "Override images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:805
+msgid "Override this product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1711
+msgid "Override title"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:129
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:445
+msgid "Override: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2573
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:673
+msgid "Pending"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:32
+msgid "PHP Max Execution Time"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:37
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:855
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1640
+msgid "PHP max_input_vars is too low, please increase it in php.ini"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:32
+msgid "PHP Time Limit"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:1000
+#, php-format
+msgid "Please configure %s/USD rate in the plugin settings/Product price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:142
+msgid ""
+"Please disable \"Use external links for images\" and enable \"Import "
+"description images\""
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:232
+msgid ""
+"Please disable \"Use external links for images\" and enable \"Import "
+"description images\" to make Import button available for Description images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:270
+msgid ""
+"Please enter AliExpress Product ID( the product must be imported to the "
+"import list before checking)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:909
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1296
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1657
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1759
+msgid "Please select at least 1 variation to import this product."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:411
+msgid "Please select at least 1 variation to import."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:554
+msgid ""
+"Please select default value to fulfill orders after this attribute is removed"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:63
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:134
+msgid "Please select original variation"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1652
+msgid "Please select product to import"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:1002
+msgid "Please switch AliExpress currency to USD"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:145
+msgid "Plugins"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2965
+msgid "Position"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/data.php:1684
+msgid "Preg_match fails"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:425
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:479
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2485
+msgid "Previous Page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1400
+msgid "Price format"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:540
+msgid "Price high to low"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:539
+msgid "Price low to high"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2762
+msgid "Price of the product applicable to the"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1161
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1428
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:387
+msgid "Price range"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:127
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:416
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:419
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:500
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:609
+msgid "Processing"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2788
+msgid "Product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1966
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1977
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2082
+#, php-format
+msgid "Product #%1$s is replaced with product #%2$s."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2071
+#, php-format
+msgid ""
+"Product #%1$s is replaced with product #%2$s. Variation #%3$s is replaced "
+"with variation #%4$s."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:475
+msgid "Product Attributes"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:770
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:585
+msgid "Product Description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:762
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:577
+msgid "Product description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:145
+msgid "Product does not exist"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:580
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:456
+msgid "Product exists"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:243
+msgid "Product ID"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:578
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:440
+msgid "Product is added to import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:888
+msgid "Product is deleted from your store"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:481
+msgid "Product Overriding"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:472
+msgid "Product Price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2869
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:666
+msgid "Product status"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:478
+msgid "Product Sync"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:244
+msgid "Product Title"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2855
+msgid "Product title"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:953
+msgid "Product variations is visible on product page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:55
+msgid ""
+"Product Variations Swatches for WooCommerce is a professional plugin that "
+"allows you to show and select attributes for variation products. The plugin "
+"displays variation select options of the products under colors, buttons, "
+"images, variation images, radio so it helps the customers observe the "
+"products they need more visually, save time to find the wanted products than "
+"dropdown type for variations of a variable product."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:245
+msgid "Product/Variation IDs"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:287
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:349
+msgid "Product/variation image"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:469
+msgid "Products"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1089
+msgid ""
+"Products are imported in USD, the price of imported products will be "
+"converted after applying the price rule below"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:430
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2572
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:672
+msgid "Publish"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:64
+msgid ""
+"Quickly and easily edit your products in bulk with <strong>Bulky – Bulk Edit "
+"Products for WooCommerce</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:140
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:203
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:683
+msgid "Recommended plugins"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:202
+msgid ""
+"Recommended plugins for ALD - Dropshipping and Fulfillment for AliExpress "
+"and WooCommerce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3400
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3703
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1168
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:394
+msgid "Regular price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:412
+msgid "Regular price can not be empty."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:497
+msgid "Reimport"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:446
+msgid "Reimport: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3137
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1016
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1280
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2076
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2134
+msgid "Remove"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:403
+msgid "Remove all failed images from database"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2430
+msgid "Remove all products(except overriding products) from Import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:87
+msgid "Remove attribute successfully"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:597
+msgid "Remove existing categories and add selected"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:628
+msgid "Remove existing tags and add selected"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:642
+msgid "Remove old data in posts table"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2445
+msgid "Remove selected"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:417
+msgid "Remove selected product(s) from import list?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3013
+msgid "Remove this attribute"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3137
+msgid "Remove this product from import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:416
+msgid "Remove this product from import list?"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1553
+msgid "Remove this row"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:669
+msgid "Removed"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2133
+msgid "Replace"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2064
+msgid "Replace carrier URL"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2075
+msgid "Replace carrier URL with"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2067
+msgid ""
+"Replace carrier URL with respective URL below if DOMAIN of original carrier "
+"URL contains search strings(case-insensitive)."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:433
+msgid "Replace description and short description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1742
+msgid ""
+"Replace description and short description of overridden product with new "
+"product's description and short description"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1730
+msgid ""
+"Replace images and gallery of overridden product with new product's images "
+"and gallery"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:432
+msgid "Replace product image and gallery"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:431
+msgid "Replace product title"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1718
+msgid "Replace title of overridden product with new product's title"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1015
+msgid "Replace with"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:691
+msgid "Replace with new product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1648
+msgid "Replacement"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:363
+#, php-format
+msgid ""
+"Require ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce "
+"plugin version %s"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1772
+msgid "Require billing fields in Latin"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:36
+msgid "Require city in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:28
+msgid "Require first name in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:32
+msgid "Require last name in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:50
+msgid "Require shipping city in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:44
+msgid "Require shipping first name in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:47
+msgid "Require shipping last name in English"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:643
+msgid "Restore"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:640
+msgid "Restore this product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:221
+msgid "Return to dashboard"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:748
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:757
+msgid "Return to Import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1370
+msgid "Rules for Fraction part"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1367
+msgid "Rules for Fraction part will be applied before rules for Integer part"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1419
+#, php-format
+msgid ""
+"Rules for Fraction part will not take effect because you set %s for Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1379
+msgid "Rules for Integer part"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1365
+msgid ""
+"Rules will be looped from top to bottom grouped by Compared part to find "
+"matches"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:28
+msgid ""
+"Run setup wizard for ALD - AliExpress Dropshipping and Fulfillment for "
+"WooCommerce"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1947
+msgid "RUT meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1955
+msgid "RUT number is required when you fulfill orders of Customers from Chile."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3396
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3690
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1163
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:389
+msgid "Sale price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:413
+msgid "Sale price must be smaller than regular price."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3008
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:260
+msgid "Save"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:434
+msgid ""
+"Save my choices and do not show these options again(you can still change "
+"this in <a target=\"_blank\" href=\"admin.php?page=woo-"
+"alidropship#/override\">plugin settings</a>)."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2200
+msgid "Save Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:49
+msgid ""
+"Save storage by using external image URLs. This plugin is required if you "
+"want to use external URLs(AliExpress cdn image URLs) for product featured "
+"image, gallery images and variation image."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:568
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1013
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2074
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2131
+msgid "Search"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2053
+msgid "Search and Replace"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2121
+msgid "Search and replace strings in Carrier name"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2124
+msgid ""
+"Search for strings in Carrier name and replace found strings with respective "
+"values."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1007
+msgid ""
+"Search for strings in product title and description and replace found "
+"strings with respective values."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:546
+msgid "Search imported product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2546
+msgid "Search product in import list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2581
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:754
+msgid "Search results only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1638
+msgid "Search term"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2068
+msgid ""
+"Search will take place with priority from top to bottom and will STOP after "
+"first match."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:526
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:262
+msgid "Secret key"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:353
+msgid "Secret key does not match"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:547
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:277
+msgid ""
+"Secret key is one of the two ways to connect the chrome extension with your "
+"store. The other way is to use WooCommerce authentication."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:542
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:597
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:628
+msgid "Set"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2435
+msgid "Set categories"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3073
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3088
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3106
+msgid "Set image for selected variation(s)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:518
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3398
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3402
+msgid "Set price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2439
+msgid "Set status - Draft"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2438
+msgid "Set status - Pending"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2437
+msgid "Set status - Publish"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2436
+msgid "Set tags"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1252
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1321
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:473
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:541
+msgid "Set to"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:527
+msgid "Set to this value"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2443
+msgid "Set visibility - Hidden"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2442
+msgid "Set visibility - Search results only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2440
+msgid "Set visibility - Shop and search results"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2441
+msgid "Set visibility - Shop only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/admin.php:33
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2238
+msgid "Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:29
+msgid "Setup Wizard"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:519
+msgid "Ship to"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:128
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:409
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:495
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:610
+msgid "Shipped"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2907
+msgid "Shipping class"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:947
+msgid ""
+"Shipping class selected here will also be selected by default in the Import "
+"list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3381
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3636
+msgid "Shipping cost"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2029
+msgid ""
+"Shipping cost of all cart items will be calculated and applied to the cart "
+"so you should not add shipping cost to product price when importing "
+"AliExpress products to avoid making the final price of products paid by your "
+"customers too high"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:724
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:346
+msgid ""
+"Shipping cost will be added to price of original product after applying "
+"price rules."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:327
+msgid ""
+"Shipping cost will be added to price of original product before applying "
+"price rules. You can select shipping country/company to calculate shipping "
+"cost of products before importing."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:707
+msgid ""
+"Shipping cost will be added to price of original product. You can select "
+"shipping country/company to calculate shipping cost of products before "
+"importing."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1933
+msgid "Shipping neighborhood meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1905
+msgid "Shipping number meta field"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2579
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:752
+msgid "Shop and search results"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2580
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:753
+msgid "Shop only"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:34
+msgid "Should be greater than 100"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:40
+msgid "Should be greater than 10000"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:46
+msgid "Should be greater than 300MB"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1971
+msgid "Show action"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:698
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:316
+msgid "Show shipping option"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:502
+msgid ""
+"Since version 1.0.2 of <a href=\"https://downloads.villatheme.com/?"
+"download=alidropship-extension\" target=\"_blank\">WooCommerce AliExpress "
+"Dropshipping Extension</a>, you can authenticate your extension using "
+"WooCommerce REST API authentication(recommended). To edit or revoke your "
+"APIs, please go to <a href=\"admin.php?page=wc-"
+"settings&tab=advanced&section=keys\" target=\"_blank\">WooCommerce "
+"settings/Advanced/REST API</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:244
+msgid "Site URL"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2058
+msgid "Skip if carrier is <strong>AliExpress Standard Shipping</strong>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:721
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2863
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3331
+msgid "Sku"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:922
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1661
+msgid "Sku exists."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:522
+msgid "SKU: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2967
+msgid "Slug"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:440
+msgid ""
+"Some extra checkout fields are not configured which may lead to incorrect "
+"address of Brazilian customers when fulfilling AliExpress orders. Please go "
+"to <a href=\"#fulfill\">Fulfill</a> tab to configure CPF, Billing/Shipping "
+"number and neighborhood meta fields. If you already use your own code to "
+"handle these custom fields, please ignore this warning."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:534
+msgid "Sort"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:337
+msgid "SSL is required"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:604
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2744
+msgid "Store: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:1208
+msgid "Success"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1592
+msgid "Sync product automatically"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:45
+msgid "Sync your WooCommerce orders with AliExpress orders"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:28
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:72
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:73
+msgid "System Status"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2899
+msgid "Tags"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:371
+msgid ""
+"The migration process is currently running in the background. Please do not "
+"import at this time"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1884
+msgid ""
+"The order meta field that a 3rd party plugin uses to store customer's CPF "
+"field."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1954
+msgid ""
+"The order meta field that a 3rd party plugin uses to store customer's RUT "
+"number."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:61
+msgid ""
+"The plugin offers sufficient simple and advanced tools to help filter "
+"various available attributes of simple and variable products such as  ID, "
+"Title, Content, Excerpt, Slugs, SKU, Post date, range of regular price and "
+"sale price, Sale date, range of stock quantity, Product type, Categories.... "
+"Users can quickly search for wanted products fields and work with the "
+"product fields in bulk."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:307
+msgid ""
+"The product this image belongs to was deleted so this image is now removed "
+"from list"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2028
+msgid ""
+"This feature allows your customers to select shipping method for each item "
+"like you do on AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1635
+msgid ""
+"This feature is to automatically replace original attribute term with "
+"respective value in the Import list. This does not apply to products whose "
+"attributes were edited."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2056
+msgid ""
+"This feature is used for <strong>Orders Tracking for WooCommerce</strong> "
+"plugin when syncing tracking info."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:796
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:611
+msgid ""
+"This helps save storage by using original AliExpress image URLs but you will "
+"not be able to edit them"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1103
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:359
+#, php-format
+msgid ""
+"This is exchange rate to convert product price from USD to your store's "
+"currency(%s) when adding products to import list."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1885
+msgid ""
+"This is used only for Customers from Brazil. If empty, billing company will "
+"be used as CPF when fulfilling AliExpress orders."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2125
+msgid "This only works when new <strong>Custom carrier</strong> is created"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:290
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:928
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1667
+msgid "This product has already been imported"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:320
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:690
+#, php-format
+msgid ""
+"This product is being overridden by: %1$s. Please go to %2$s to complete the "
+"process."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:656
+msgid "This product is deleted from your WooCommerce store."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:92
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:122
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:157
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:404
+msgid "This product is no longer available"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:293
+msgid "This product is overriding an other product."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:625
+msgid "This product is trashed from your WooCommerce store."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2767
+msgid "This product will override: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:757
+msgid "This setting determines which shop pages products will be listed on."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:239
+msgid "To import AliExpress products, this chrome extension is required."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3188
+#, php-format
+msgid "To import AliExpress products, you have to install and activate %s"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:548
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:278
+msgid ""
+"To let the chrome extension connect with this store, please click the "
+"\"Connect the Extension\" button below."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:126
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:413
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:608
+msgid "To Order"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:498
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:665
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:676
+msgid "To order"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:706
+msgid "To Order AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:813
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:628
+#, php-format
+msgid "To use this feature, you have to install and activate %1$s plugin. %2$s"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:493
+msgid "Tracking Carrier"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:544
+msgid "Tracking code: "
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/order.php:293
+msgid "Tracking number"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Transfer data from AliExpress products to WooCommerce effortlessly and "
+"fulfill WooCommerce orders to AliExpress automatically."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:40
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:41
+msgid "Transfer Settings"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:436
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:628
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:659
+msgid "Trash"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:71
+msgid ""
+"Try our brand new <strong>Email Template Customizer for WooCommerce</strong> "
+"plugin to easily customize your WooCommerce emails and make them more "
+"beautiful and professional."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:293
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/api.php:301
+msgid "Unauthorized"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1609
+msgid "Update price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1600
+msgid "Update quantity"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1139
+msgid "Update rate automatically"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1133
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1142
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1595
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1604
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1613
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1622
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1655
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1803
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2017
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2040
+msgid "Upgrade This Feature"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:832
+msgid ""
+"Upload images in product description if any. If disabled, images in "
+"description will use the original AliExpress cdn links"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2096
+msgid "URL of a replacement carrier"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:779
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:594
+msgid "Use external links for images"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:682
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:638
+msgid "Use global attributes"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:597
+msgid "Use new table for Ali product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:247
+msgid "Used for"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2968
+msgid "Values"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2807
+#, php-format
+msgid "Variations(%s)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:282
+msgid "Video guide"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1388
+msgid "View detailed example with explanation"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:616
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3134
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:170
+msgid "View on AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:172
+msgid "View on Imported"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3311
+msgid "View product"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:170
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:249
+msgid "View product on AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/product.php:172
+msgid "View product on Imported page"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1574
+msgid "View result"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3133
+msgid "View this product on AliExpress.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme(villatheme.com)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2018
+msgid ""
+"When fulfilling orders, tracking number is not available yet. This function "
+"helps you check and sync tracking number automatically"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:864
+msgid ""
+"When importing products, instead of letting their images import in the "
+"background, main product image will be uploaded immediately while gallery "
+"and variation images(if any) will be added to Failed images page so that you "
+"can go there to import them manually."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2057
+msgid ""
+"When syncing orders with AliExpress, if Orders Tracking for WooCommerce "
+"plugin is active, it will automatically search for carrier URL in the "
+"existing carriers of this plugin (The <strong>Search and Replace</strong> "
+"function runs right before this step). If found, it will save tracking info "
+"with that carrier; otherwise, a new <strong>Custom carrier</strong> will be "
+"created."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1623
+msgid ""
+"When updating product with chrome extension , send email to admin if "
+"AliExpress product is no longer available/is out of stock/changes price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:236
+msgid "WooCommerce AliExpress Dropshipping Extension"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:49
+msgid "WooCommerce AliExpress Dropshipping Extension installed and active"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/imported.php:775
+msgid "WooCommerce Price"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:112
+#, php-format
+msgid ""
+"You are using Permalink structure as Plain. Please go to <a href=\"%s\" "
+"target=\"_blank\">Permalink Settings</a> to change it."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3034
+msgid "You can edit product attributes on Attributes tab"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:529
+msgid "You don't have any failed images."
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2030
+#, php-format
+msgid ""
+"You have to create at least 1 shipping method in <a target=\"_blank\" "
+"href=\"%s\">WooCommerce settings/Shipping</a>"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/system.php:53
+msgid ""
+"You have to install the chrome extension to import products from AliExpress"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:520
+msgid ""
+"You need to enable this to let WooCommerce AliExpress Dropshipping Extension "
+"connect to your store"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:76
+msgid "Your current settings:"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1366
+msgid ""
+"Your input price can only be applied by 1 rule for each "
+"part(fraction/integer)=>maximum 2 rules in total(1 for Integer part and 1 "
+"for Fraction part)"
+msgstr ""
+
+#: D:/git/free-version/woo-alidropship/woo-alidropship/admin/settings.php:115
+msgid ""
+"Your site is not using HTTPS. For more details, please read <a "
+"target=\"_blank\" href=\"https://wordpress.org/documentation/article/https-"
+"for-wordpress/\">HTTPS for WordPress</a>"
+msgstr ""

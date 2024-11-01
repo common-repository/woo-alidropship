@@ -1,0 +1,214 @@
+.wad-ali-order-detail .wad-order-item-name {
+    max-width: calc(100% - 130px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wad-ali-order-detail .wad-ali-order-item .wad-icon {
+    cursor: pointer;
+}
+
+.wad-ali-order-detail .wad-ali-order-item td {
+    cursor: initial !important;
+}
+
+.wad-ali-order-detail .wad-ali-order-item {
+    /*border-bottom: 1px solid #f7f7f7;*/
+}
+
+.wad-ali-order-detail .wad-ali-order-item:first-child {
+    /*border-top: 1px solid #f7f7f7;*/
+}
+
+.wad-ali-order-detail .wad-ali-order-item {
+    padding: 7px 20px;
+    background-color: white;
+    cursor: initial;
+}
+
+.wad-ali-order-detail table {
+    width: 100%;
+}
+
+.wad-ali-order-detail table td {
+    padding: 0 !important;
+}
+
+.wad-ali-order-item table .wad-column {
+    width: 20% !important;
+    white-space: nowrap;
+}
+
+.wad-ali-order-item table .wad-column.first, .wad-ali-order-item table .wad-column.sixth {
+    width: 10% !important;
+}
+
+input[type=text] {
+    box-shadow: none;
+}
+
+.wad-icon.dashicons {
+    /*vertical-align: sub;*/
+}
+
+.wad-icon.dashicons.dashicons-yes, .wad-ali-order-id {
+    display: none;
+}
+
+button.wad-show-detail:hover {
+    color: black;
+}
+
+.wad-show-detail span {
+    padding: 5px;
+}
+
+.wad-fulfill-button:after {
+    white-space: pre;
+}
+
+[data-tooltip][data-inverted]:after {
+    font-size: 12px;
+}
+
+.vi_wad_ali_order.column-vi_wad_ali_order {
+    white-space: nowrap;
+}
+
+.wad-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wad-status {
+    border-radius: 3px;
+    padding: 4px 10px;
+}
+
+a.wad-fulfill-button:active {
+    /*color: #aaa;*/
+}
+
+a.wad-fulfill-button:visited {
+    /*color: white;*/
+}
+
+a:hover {
+    color: inherit !important;
+}
+
+.wad-fulfill-group.blue {
+    color: white;
+    background-color: #2185d0
+}
+
+/*Right color*/
+
+.wad-show-detail {
+    transition: background 200ms ease;
+    float: right;
+    box-shadow: none;
+    border: none;
+    height: 33px;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.wad-show-detail.processing {
+    background-color: #ffd890;
+    color: #881600
+}
+
+.wad-show-detail.full-processing {
+    background-color: #e0e0e0;
+    color: #474747
+}
+
+.wad-show-detail.completed {
+    background-color: #e9e9e9;
+    color: #191919;
+}
+
+.wad-show-detail.to-order {
+    background-color: #cce7cc;
+    color: #5b841b;
+}
+
+.wad-show-detail.shipped {
+    background-color: #e9e9e9;
+    color: #191919;
+}
+
+/*left color*/
+.wad-fulfill-group.processing {
+    background-color: #ffd27e;
+    color: #881600
+}
+
+.wad-fulfill-group.full-processing, .wad-item-stt.processing {
+    background-color: #d6d6d6;
+    color: #474747
+}
+
+.wad-fulfill-group.completed, .wad-item-stt.completed {
+    color: black;
+    background-color: #e3e3e3;
+}
+
+.wad-fulfill-group.to-order, .wad-item-stt.to-order {
+    color: #476815;
+    background-color: #b9e1b6;
+}
+
+.wad-fulfill-group.shipped, .wad-item-stt.shipped {
+    color: black;
+    background-color: #e3e3e3;
+}
+
+.wad-item-stt {
+    padding: 2px 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.wad-fulfill-group {
+    margin-left: 10px;
+    color: white;
+    min-width: 110px;
+    float: right;
+    min-height: 33px;
+    border-radius: 3px;
+    /*overflow: hidden;*/
+    text-align: center;
+}
+
+.wad-fulfill-button {
+    color: inherit;
+    line-height: 2.5em;
+    padding: 8px;
+}
+
+.wad-spinner.is-active {
+    margin: 0;
+    float: unset;
+}
+
+.wad-list-ali-order-items td {
+    width: 25% !important;
+}
+
+.wad-order-detail-row .wad-colspan {
+    padding: 0.5em 1em !important;
+}
+
+.wad-manual-btn {
+    background-color: #d1d1d1;
+    padding: 2px 5px;
+    color: #6e6e6e;
+    border-radius: 2px;
+}

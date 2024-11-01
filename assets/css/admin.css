@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+.vi-ui.toggle.checkbox input + label {
+    font-size: 0.9em;
+}
+
+.vi-ui.right {
+    float: none;
+}
+
+.vi-ui.fluid.input {
+    float: none !important;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 34px;
+    border: 1px solid rgba(34, 36, 38, .15);
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li .select2-search__field {
+    width: 100% !important;
+    border: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid rgba(34, 36, 38, .15);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px;
+}
+
+input[type="number"] {
+    height: auto;
+}
+
+.vi-ui.attached.tabular.menu {
+    flex-wrap: wrap;
+}
+
+
+/*price rules*/
+table.price-rule.vi-ui.table thead tr th:last-child {
+    width: 1%;
+}
+
+table.price-rule.vi-ui.table tr .vi-ui.dropdown .menu .item,
+table.price-rule.vi-ui.table tr input,
+table.price-rule.vi-ui.table tr .vi-ui.label {
+    padding: 8px !important;
+}
+
+table.price-rule.vi-ui.table tr .vi-ui.dropdown {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 8px !important;
+}
+
+table.price-rule.vi-ui.table tr th,
+table.price-rule.vi-ui.table tr td {
+    padding: 8px;
+}
+
+table.price-rule.vi-ui.table .vi-wad-price-rule-row-default th:first-child,
+.vi-wad-price-rule-container tr th,
+.vi-wad-price-rule-container tr td {
+    text-align: center;
+}
+
+
+span.vi-wad-currency-symbol + input {
+    width: calc(100% - 20px) !important;
+}
+
+span.vi-wad-currency-symbol {
+    margin: 0 !important;
+}
+
+span.vi-wad-price-from-to-separator {
+    display: flex;
+    align-items: center;
+}
+
+.select2-search.select2-search--inline {
+    margin-bottom: 0;
+}
+
+.vi-wad-generate-secretkey {
+
+}
+
+td.vi-wad.relative {
+    position: relative;
+}
+
+.vi-wad-copy-secretkey i,
+.vi-wad-generate-secretkey i {
+    cursor: pointer;
+    transform: scale3d(1, 1, 1);
+    transition: transform 200ms ease;
+}
+
+.vi-wad-copy-secretkey i:hover,
+.vi-wad-generate-secretkey i:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.vi-wad-copy-secretkey .dashicons.dashicons-admin-page {
+    font-size: 22px;
+}
+
+.string-replace thead tr th {
+    padding: 10px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.string-replace tfoot tr th {
+    padding: 10px 0;
+}
+
+.string-replace tr td {
+    padding: 10px 20px 10px 0;
+    text-align: center;
+}
+
+.string-replace tr td:last-child {
+    padding: 10px 0;
+}
+
+.delete-string-replace-rule.button,
+.string-replace tbody td .button {
+    padding: .52em 1em;
+}
+
+.price-rule th:first-child {
+    width: 33%;
+}
+
+.vi-ui[class*="right labeled"].input > input.vi-wad-price-from,
+.vi-ui[class*="right labeled"].input > input.vi-wad-price-to {
+    border-right-color: #ddd !important;
+    border-top-right-radius: .28571429rem !important;
+    border-bottom-right-radius: .28571429rem !important;
+}
+
+.vi-wad-copy-secretkey-success {
+    position: absolute;
+    left: -20px;
+    top: 22px;
+    color: #29dc81;
+}
+
+/* Setup Wizard*/
+#vi-wad-setup-wizard {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+#vi-wad-setup-wizard h1 {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.7em;
+}
+
+#vi-wad-setup-wizard h2 {
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.form.setup-wizard {
+    max-width: 1000px;
+    margin: 0;
+}
+
+#vi-wad-setup-wizard .vi-wad-btn-group {
+    text-align: right;
+    margin-top: 14px;
+}
+
+#vi-wad-setup-wizard .vi-ui.segment {
+    /*padding: 1em;*/
+}
+
+#vi-wad-setup-wizard .vi-wad-step-1 .vi-ui.table tr td, #vi-wad-setup-wizard .vi-wad-step-2 .vi-ui.table tr td {
+    border-top: none;
+    vertical-align: top;
+}
+
+#vi-wad-setup-wizard .vi-ui.table {
+    margin-top: 0;
+}
+
+#vi-wad-setup-wizard .vi-wad-settings-container-main input {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+}
+
+#vi-wad-setup-wizard .vi-wad-settings-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+#vi-wad-setup-wizard .vi-wad-settings-container-main .vi-wad-params-shipping-company {
+    width: 100%;
+    padding: 4px;
+    box-shadow: none;
+    border: 1px solid #aaaaaa;
+}
+
+#vi-wad-setup-wizard .form-table th {
+    padding: 10px 5px 10px 0;
+}
+
+#vi-wad-setup-wizard .vi-ui.button {
+    margin: 0;
+}
+
+#vi-wad-setup-wizard .vi-wad-logo {
+    text-align: center;
+}
+
+#vi-wad-setup-wizard .vi-wad-skip-btn {
+    /*text-align: center;*/
+    float: left;
+}
+
+#vi-wad-setup-wizard .vi-wad-skip-btn a {
+    color: #aaaaaa;
+}
+
+
+.vi-ui.segment.string-replace-url table th,
+.vi-ui.segment.string-replace-url table td,
+.vi-ui.segment.string-replace-name table th,
+.vi-ui.segment.string-replace-name table td,
+.vi-ui.segment.string-replace table th,
+.vi-ui.segment.string-replace table td {
+    text-align: center;
+}
+
+.vi-ui.tab {
+    height: unset !important;
+    float: unset !important;
+    background: white !important;
+}
+
+/*Format price*/
+.vi-ui.table thead th {
+    width: auto;
+    text-align: center !important;
+}
+
+.vi-wad-format-price-rules-container tr th {
+    text-align: center;
+}
+
+.vi-wad-format-price-rules-table thead th:first-child {
+    width: 1%;
+}
+
+.vi-wad-format-price-rules-table thead th.vi-wad-format-price-rules-col {
+    width: 150px;
+}
+
+td.vi-wad-format-price-rules-value-td {
+    position: relative;
+}
+
+.vi-wad-format-price-rules-action-buttons {
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.vi-wad-format-price-rules-action-buttons .vi-ui.icon:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.vi-wad-format-price-rules-action-buttons .vi-ui.icon {
+    display: block;
+    width: 100%;
+    margin: 3px 0;
+    font-size: 16px;
+    transform: scale3d(1, 1, 1);
+    transition: transform 100ms ease;
+    cursor: pointer;
+}
+
+tbody.vi-wad-format-price-rules-container.ui-sortable > tr:hover .vi-wad-format-price-rules-action-buttons {
+    display: flex;
+}
+
+.vi-ui.labeled.left .vi-wad-format-price-rules-label-integer,
+.vi-ui.labeled.right .vi-wad-format-price-rules-label-fraction {
+    display: none;
+}
+
+.vi-wad-error {
+    outline: 1px solid red !important;
+}
+
+.vi-wad-error-message-parent {
+    position: relative;
+}
+
+.vi-wad-error-message {
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+}
+
+.vi-wad-format-price-rules-label.right > input {
+    border-left-color: #e8e8e8 !important;
+}
+
+.vi-wad-format-price-rules-test-result-container {
+    display: flex;
+    align-items: center;
+}
+
+.vi-ui.message .header {
+    margin-top: 5px;
+}
+
+.vi-ui.message strong {
+    font-weight: 700;
+}
+
+.vi-wad-save-settings-container {
+    position: sticky;
+    bottom: 20px;
+    display: inline-block;
+    z-index: 9;
+}
+
+.vi-wad-hidden {
+    display: none !important;
+}
+
+.vi-wad-plugin-name a {
+    text-decoration: none;
+    font-size: 120%;
+    padding: 0 0 10px;
+    display: block;
+    font-weight: 700;
+}
+
+.vi-wad-plugin-desc {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 90%;
+}
+
+/*RTL*/
+.rtl .vi-wad-custom-price-rules-container .vi-wad-custom-price-rule-remove {
+    right: unset;
+    left: 20px;
+}
+
+.rtl .vi-wad-table-of-placeholders .vi-wad-placeholder-value-copy {
+    right: unset;
+    left: 15px;
+}

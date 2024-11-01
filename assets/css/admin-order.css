@@ -1,0 +1,150 @@
+.vi-wad-item-details {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.vi-wad-hidden {
+    display: none !important;
+}
+
+.vi-wad-item-details .vi-wad-item-value {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    background: #ffffff;
+    line-height: 27px;
+    width: calc(100% - 180px);
+    min-width: 100px;
+}
+
+.vi-wad-item-details.vi-wad-item-ali-order-id .vi-wad-item-value-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, .5);
+}
+
+.vi-wad-item-details.vi-wad-item-ali-order-id .vi-wad-item-value-overlay:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.vi-wad-item-details > div {
+    margin: 4px 0;
+    text-align: center;
+}
+
+.vi-wad-item-details .vi-wad-item-label {
+    width: 120px;
+}
+
+.vi-wad-item-details.vi-wad-item-tracking-number .vi-wad-item-value .vi-wad-ali-tracking-number,
+.vi-wad-item-details.vi-wad-item-ali-order-id .vi-wad-item-value .vi-wad-ali-order-id {
+    text-decoration: none;
+    width: 100%;
+}
+
+.vi-wad-item-details.vi-wad-item-tracking-number .vi-wad-item-value .vi-wad-ali-tracking-number-input,
+.vi-wad-item-details.vi-wad-item-ali-order-id .vi-wad-item-value .vi-wad-ali-order-id-input {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.vi-wad-ali-order-id-editing.vi-wad-item-details.vi-wad-item-ali-order-id .vi-wad-item-value .vi-wad-ali-order-id-input {
+    cursor: initial;
+}
+
+.vi-wad-item-actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60px;
+}
+
+/*button edit*/
+span.vi-wad-item-actions-edit {
+    cursor: pointer;
+    transform: scale3d(1, 1, 1);
+    transition: transform 200ms ease;
+}
+
+span.vi-wad-item-actions-edit:hover {
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+/*button save*/
+span.vi-wad-item-actions-save {
+    color: #999;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+span.vi-wad-item-actions-save:hover {
+    color: #000 !important;
+    background: #eee;
+}
+
+/*button cancel*/
+span.vi-wad-item-actions-cancel {
+    color: #999;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+span.vi-wad-item-actions-cancel:hover {
+    color: #000 !important;
+    background: #eee;
+}
+
+/*order id*/
+.vi-wad-container {
+    background: #f5f5f5;
+    padding: 4px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/*tracking*/
+.vi-wad-item-details.vi-wad-item-tracking-number {
+    justify-content: start;
+}
+
+span.vi-wad-item-actions-get-tracking {
+    cursor: pointer;
+    transform: scale3d(1, 1, 1);
+    transition: transform 200ms ease;
+    color: #444;
+}
+
+span.vi-wad-item-actions-get-tracking:hover {
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+.vi-wad-ali-order-btn .button {
+    width: 100%;
+}
+
+#order_data {
+    position: relative;
+}
